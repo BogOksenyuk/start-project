@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__inner">
+        <a class="header__logo" href="index.html">
+          <img src="images/LOGO.svg" alt="logo">
+        </a>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__link"><a class="header__link-btn" href="#">Проекты</a></li>
+            <li class="header__link"><a class="header__link-btn" href="#">О компании</a></li>
+            <li class="header__link"><a class="header__link-btn" href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="header__box">
+          <div class="header__lang">
+            <a class="header__lang-link active" href="#">RU</a>
+            <a class="header__lang-link" href="#">EN</a>
+          </div>
+          <a class="header__btn" href="#">
+            <div class="header__btn-link">
+              Начать проект<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="arrow-path__one" d="M11 8L12 8V6H11V8ZM0 8L11 8V6L0 6L0 8Z" fill="#388AF3"/><path class="arrow-path__two" d="M7 13L13 7L7 1" stroke="#388AF3" stroke-width="2"/></svg>
+            </div>
+          </a>
+        </div>
+        <div class="header__button">
+          <div class="navigation__inner header__button-inner">
+            <div class="navigation__item"></div>
+            <div class="navigation__item"></div>
+            <div class="navigation__item"></div>
+          </div>
+        </div>
+      </div>
+      <div class="header__mobile">
+        <div class="header__close">
+          <div class="header__close-link"></div>
+          <div class="header__close-link"></div>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__link"><a class="header__link-btn" href="#">Проекты</a></li>
+            <li class="header__link"><a class="header__link-btn" href="#">О компании</a></li>
+            <li class="header__link"><a class="header__link-btn" href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="header__box">
+          <div class="header__lang">
+            <a class="header__lang-link active" href="#">RU</a>
+            <a class="header__lang-link" href="#">EN</a>
+          </div>
+          <div class="header__start">
+            <a class="header__btn" href="#">
+              <div class="header__btn-link">
+                Начать проект<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="arrow-path__one" d="M11 8L12 8V6H11V8ZM0 8L11 8V6L0 6L0 8Z" fill="#388AF3"/><path class="arrow-path__two" d="M7 13L13 7L7 1" stroke="#388AF3" stroke-width="2"/></svg>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+     <div class="navigation">
+      <div class="navigation__inner">
+        <div class="navigation__item"></div>
+        <div class="navigation__item"></div>
+        <div class="navigation__item"></div>
+      </div>
+    </div>
+
+    <div class="breadcrumbs">
+      <div class="container">
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__link"><a class="breadcrumbs__link-btn" href="#">Главная</a></li>
+          <li class="breadcrumbs__link active"><a class="breadcrumbs__link-btn" href="#">Контакты</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="contacts">
+      <div class="container">
+        <div class="contacts__title">Мы рядом</div>
+        <div class="contacts__text">Заполните форму ниже и мы свяжемся с вами. Не любите формы? Напишите нам на почту <a class="contacts__text-btn" href="mailto:info@site.com">info@site.com</a></div>
+        <form class="contacts__form" id="form">
+          <div class="contacts__formbox">
+            <div class="contacts__formbox-top">
+              <div class="contacts__formbox-link">
+                <input class="contacts__formbox-input contacts__input-name" type="text" required>
+                <label class="contacts__formbox-label">Ваше имя <span>*</span></label>
+              </div>
+              <div class="contacts__formbox-link">
+                <input class="contacts__formbox-input contacts__input-email" type="email" required> 
+                <label class="contacts__formbox-label">Ваш E-Mail <span>*</span></label>
+              </div>
+            </div>
+            <div class="contacts__formbox-bottom">
+              <textarea class="contacts__formbox-input contacts__formbox-textarea" required></textarea>
+              <label class="contacts__formbox-label">Комментарий <span>*</span></label>
+            </div>
+            <div class="contacts__formbox-agreement">
+              <div class="contacts__formbox-sogl">
+                <input class="contacts__formbox-checkbox" type="checkbox" required>
+                <div class="contacts__formbox-item">
+                  Согласен с <span>Политикой конфиденциальности</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contacts__btn">
+            <img class="contacts__button-img" src="images/message.svg" alt="img">
+            <button class="contacts__button" type="submit">
+              <div class="contacts__button-text contacts__text-one">Отправить</div>
+              <div class="contacts__button-text contacts__text-two">Ваше сообщение <br> отправлено!</div>
+            </button>
+          </div>
+         
+        </form>
+      </div>
+    </section>
+
+   <footer class="footer">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__logo">
+            <img src="images/footer-logo.svg" alt="logo">
+          </div>
+          <div class="footer__inner">
+            <div class="footer__item">
+              <div class="footer__item-title">Услуги</div>
+              <ul class="footer__item-list">
+                <li class="footer__item-link">
+                  <a class="footer__item-btn" href="#">Support and development</a>
+                </li>
+                <li class="footer__item-link">
+                  <a class="footer__item-btn" href="#">UI/UX and product design</a>
+                </li>
+                <li class="footer__item-link">
+                  <a class="footer__item-btn" href="#">Progressive Web Applications (PWA)</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__item">
+              <div class="footer__item-title">Компания</div>
+              <ul class="footer__item-list">
+                <li class="footer__item-link">
+                  <a class="footer__item-btn" href="#">О компании</a>
+                </li>
+                <li class="footer__item-link">
+                  <a class="footer__item-btn" href="#">Проекты</a>
+                </li>
+                <li class="footer__item-link">
+                  <a class="footer__item-btn" href="#">Контакты</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__item">
+              <div class="footer__item-title">Контакты</div>
+              <div class="footer__item-box">
+                <ul class="footer__item-list">
+                  <li class="footer__item-link">
+                    <a class="footer__item-btn footer__item-down" href="#" download>Скачать презентацию</a>
+                  </li>
+                  <li class="footer__item-link">
+                    <a class="footer__item-btn footer__item-tel" href="tel:+74999999999">+7 (499) 999-99-99</a>
+                  </li>
+                  <li class="footer__item-link">
+                    <a class="footer__item-btn" href="mailto:info@site.com">info@site.com</a>
+                  </li>
+                </ul>
+                <ul class="footer__social">
+                  <li class="footer__social-link"><a class="footer__social-btn" href="#"><img src="images/telegram.svg" alt="img"></a></li>
+                  <li class="footer__social-link"><a class="footer__social-btn" href="#"><img src="images/whatsapp.svg" alt="img"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__bottom-text">© Company 2022. All rights reserved.</div>
+          <div class="footer__bottom-text">Политика конфиденциальночти</div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.min.js"></script>
+</body>
+</html>
